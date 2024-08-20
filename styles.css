@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for header */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00f;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    padding: 0 20px;
+    color: #fff;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+}
+
+.intro-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.intro-actions .btn {
+    background-color: #00f;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.intro-actions .btn:hover {
+    background-color: #00c;
+}
+
+.intro-actions .btn-secondary {
+    background-color: #fff;
+    color: #00f;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #00f;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.intro-actions .btn-secondary:hover {
+    background-color: #00f;
+    color: #fff;
+}
+
+.intro-image {
+    margin-top: 20px;
+}
+
+.intro-image img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 span {
+    color: #00f;
+}
+
+#About p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.about-article {
+    text-align: center;
+    max-width: 200px;
+}
+
+.about-article img {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#Services .services-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-article {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.services-article img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill-article {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.skill-article h4 {
+    margin: 0;
+}
+
+#Blog .content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-top {
+    display: flex;
+    gap: 20px;
+}
+
+.form-top input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #000;
+}
+
+.form-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #000;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for footer */
+}
